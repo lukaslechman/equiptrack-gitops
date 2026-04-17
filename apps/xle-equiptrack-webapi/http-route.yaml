@@ -12,7 +12,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /xle-api
+            value: /xle-equiptrack-api
       filters:
         - type: URLRewrite
           urlRewrite:
@@ -24,8 +24,9 @@ spec:
           kind: Service
           name: xle-equiptrack-webapi
           port: 80
+
     - matches:
-      - path:
+        - path:
           type: PathPrefix
           value: /xle-equiptrack-openapi-ui
       backendRefs:
@@ -33,6 +34,7 @@ spec:
           kind: Service
           name: xle-equiptrack-openapi-ui
           port: 80
+
     - matches:
         - path:
             type: Exact
