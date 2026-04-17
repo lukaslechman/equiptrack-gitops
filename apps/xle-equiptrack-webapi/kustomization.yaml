@@ -8,3 +8,8 @@ resources:
 
 patches:
 - path: patches/equiptrack-webapi.deployment.yaml
+
+labels:
+- pairs:
+    app.kubernetes.io/component: xle-equiptrack-webapi
+    wac-fiit.github.io/component: backend

@@ -31,7 +31,7 @@ spec:
       backendRefs:
         - group: ""
           kind: Service
-          name: xle-equiptack-openapi-ui
+          name: xle-equiptrack-openapi-ui
           port: 80
     - matches:
         - path:

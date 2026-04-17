@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: xle-equiptrack # napr. <pfx>-ambulance-wl
+spec:
+  title: Equiptrack # napr. "Zoznam čakajúcich <pfx>"
+  description: "Sprava nemocnicneho majetku" # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Lukas Lechman" # Zadajte mená autorov
+  azureLink: "https://<sub-domain>.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/lukaslechman/equiptrack-ufe"
+  backendRepoUrl: "https://github.com/lukaslechman/equiptrack-webapi"
+  gitopsRepoUrl: "https://github.com/lukaslechman/equiptrack-gitops"
