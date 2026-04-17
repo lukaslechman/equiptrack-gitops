@@ -4,7 +4,12 @@ metadata:
   name: xle-equiptrack-ufe-content
 spec:
   microFrontend: xle-equiptrack-ufe
-  element: xle-equip-list
+  element: xle-equip-app
+  attributes:
+    - name: api-base
+      value: /xle-api
+    - name: base-path
+      value: ./xle-equip/
   displayRules:
     - allOf:
       - context-name: main-content
