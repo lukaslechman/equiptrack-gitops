@@ -3,4 +3,7 @@ kind: Component
 images:
 - name: xlechman/equiptrack-ufe
   newName: xlechman/equiptrack-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: xlechman/equiptrack-webapi
+  newName: xlechman/equiptrack-webapi
+  newTag: 1.1.0

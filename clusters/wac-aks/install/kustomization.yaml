@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/xle-equiptrack-ufe
+- ../../../apps/xle-equiptrack-webapi
 
 
 components:
