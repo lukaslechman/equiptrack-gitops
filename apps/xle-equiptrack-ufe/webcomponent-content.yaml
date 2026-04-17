@@ -7,7 +7,7 @@ spec:
   element: xle-equip-app
   attributes:
     - name: api-base
-      value: /xle-api-equiptrack
+      value: /xle-equiptrack-api
     - name: base-path
       value: ./xle-equip/
   displayRules:
